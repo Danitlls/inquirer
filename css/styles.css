@@ -1,0 +1,62 @@
+body, html {
+  box-sizing: border-box;
+  background: #E4E4E4;
+
+}
+html{
+  background-image: url("../img/rag.png");
+  background-repeat: no-repeat;
+}
+.nav {
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  border-top: .5px solid black;
+}
+.nav ul {
+    list-style: none;
+    display: inline;
+    list-style-type: disc;
+    -webkit-padding-start: 0px;
+
+}
+.nav li {
+  width: 25%;
+  /*margin-right: 15px;
+  margin-left: 5px;*/
+  padding: 0 3%;
+  text-align: center;
+  display: inline-block;
+  border-bottom: .5px solid black;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+.nav ul li a {
+  color: #890101;
+  /*width: 68px;*/
+}
+.nav a:hover {
+  color: #DF3030;
+}
+.header {
+  text-align: center;
+}
+.header h3 {
+  text-transform: none;
+  color: grey;
+  font-weight: lighter;
+}
+.header h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  line-height: .2em;
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: -.05em;
+}
+.text {
+  text-align: center;
+}
