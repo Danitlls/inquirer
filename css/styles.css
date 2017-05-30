@@ -1,7 +1,13 @@
 body, html {
   box-sizing: border-box;
   background: #E4E4E4;
-
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #890101;
 }
 html{
   background-image: url("../img/rag.png");
@@ -16,14 +22,14 @@ html{
   border-top: .5px solid black;
 }
 .nav ul {
-    list-style: none;
+
     display: inline;
     list-style-type: disc;
     -webkit-padding-start: 0px;
 
 }
 .nav li {
-  width: 25%;
+  width: 26.3%;
   /*margin-right: 15px;
   margin-left: 5px;*/
   padding: 0 3%;
@@ -34,7 +40,8 @@ html{
   text-transform: uppercase;
 }
 .nav ul li a {
-  color: #890101;
+
+  font-size: 14px;
   /*width: 68px;*/
 }
 .nav a:hover {
@@ -59,4 +66,36 @@ html{
 }
 .text {
   text-align: center;
+}
+.main h2{
+  background: url(../img/ornament.png) no-repeat 0 50%;
+  text-align: center;
+}
+.main b {
+  background: #E4E4E4;
+  padding: 20px;
+}
+.victors {
+  float: left;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 45%;
+}
+.victors img {
+  width: 100%;
+  border-radius: 10px;
+}
+.footer {
+  background: url(../img/ornament.png) 50% 0 repeat-x;
+  clear: both;
+}
+/* IT BREACKS AT 600PX*/
+@media (min-width: 600px){
+  /*.nav ul {
+    display: inline;
+    background-color: red;
+  }*/
+  .nav li{
+    display: block;
+  }
 }
