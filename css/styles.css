@@ -13,6 +13,9 @@ html{
   background-image: url("../img/rag.png");
   background-repeat: no-repeat;
 }
+.logo {
+  display: none;
+}
 .nav {
   margin-top: 25px;
   padding-left: 10px;
@@ -67,11 +70,11 @@ html{
 .text {
   text-align: center;
 }
-.main h2{
+.img-content h2{
   background: url(../img/ornament.png) no-repeat 0 50%;
   text-align: center;
 }
-.main b {
+.img-content b {
   background: #E4E4E4;
   padding: 20px;
 }
@@ -89,13 +92,55 @@ html{
   background: url(../img/ornament.png) 50% 0 repeat-x;
   clear: both;
 }
+/*For mobile use only*/
 /* IT BREACKS AT 600PX*/
-@media (min-width: 600px){
-  /*.nav ul {
-    display: inline;
-    background-color: red;
-  }*/
+@media (min-width: 600px) and (max-width: 1300px){
+  .logo {
+    display: block;
+    padding: 6%;
+    text-align: center;
+  }
+  .header {
+    display: none;
+  }
   .nav li{
     display: block;
+    width: 80%;
+    padding: 10%;
   }
+
+  .top-content {
+    float: left;
+    width: 25%;
+    padding: 2%;
+  }
+  .main-content {
+    float: right;
+    width: 66%;
+    padding: 2%;
+  }
+  .text{
+    padding-top: 50px;
+  }
+  .victors {
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 28%;
+    font-size: 15px;
+  }
+  .victors figcaption {
+    padding-bottom: 15px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1300px){
+
+  .victors {
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 12%;
+    font-size: 15px;
+  }
+  
 }
