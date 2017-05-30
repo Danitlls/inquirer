@@ -142,5 +142,29 @@ html{
     width: 12%;
     font-size: 15px;
   }
-  
+  .logo {
+    float: left;
+    display: block;
+    width: 25%;
+  }
+  .header {
+    display: none;
+  }
+  .main-content {
+    float: right;
+    width: 70%;
+  }
+  .nav li {
+    font-weight: bold;
+    width: 13%;
+    /*margin-right: 15px;
+    /*padding: 0 3%;*/
+    margin-left: 5%;
+    text-align: center;
+    display: inline-block;
+    border-bottom: .5px solid black;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+  }
+
 }
